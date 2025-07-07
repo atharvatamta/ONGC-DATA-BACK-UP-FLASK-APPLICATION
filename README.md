@@ -58,6 +58,7 @@ A web application built using **Flask** to digitize and manage ONGC’s physical
 ## File structure 
 
 ONGC FLASK APP/
+```bash
 │
 ├── static/               # Static files
 │   ├── styles.css
