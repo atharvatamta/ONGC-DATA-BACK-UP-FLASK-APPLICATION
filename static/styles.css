@@ -1,0 +1,76 @@
+body {
+  background-color: #f1f1f1d4;
+  font-family: Arial, sans-serif;
+}
+
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #222020;
+    font-weight: bold;
+  }
+  
+  .navbar {
+    background-color: #800000 !important; /* Deep maroon (ONGC style) */
+  }
+  
+  .navbar-brand {
+    color: white !important;
+    font-weight: bold;
+  }
+  
+  .navbar-brand:hover {
+    color: #ddd !important;
+  }
+  
+  .btn-primary {
+    background-color: #800000;
+    border-color: #800000;
+  }
+  
+  .btn-primary:hover {
+    background-color: #a30000;
+    border-color: #a30000;
+  }
+
+  .navbar img {
+    height: 55px;
+    width: auto;
+    border-radius: 8px;
+    background-color: #800000; /* match navbar color */
+    padding: 2px;
+  }
+  /* Style for the search button */
+.navbar .btn-outline-success {
+    color: white;
+    border-color: white;
+    background-color: #800000;
+  }
+  
+  .navbar .btn-outline-success:hover {
+    background-color: #a30000;
+    border-color: #a30000;
+    color: white;
+  }
+  
+  /* Maroon header for table */
+  .table thead th.table-header {
+    background-color: #201414 !important;
+    color: white !important;
+  }
+  .card {
+  
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.card-title {
+  color: #800000;
+}
+
+ .table thead th {
+  background-color: #000000; /* light grey header background */
+  color: rgb(248, 247, 247);              /* black header text */
+   /* bold header text */
+}
+   
