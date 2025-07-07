@@ -56,24 +56,23 @@ A web application built using **Flask** to digitize and manage ONGC’s physical
   you can also change the port number I have used the default port number as 5000 feel free to use any port number but change it in the app.py first
 
 ## File structure 
-
-ONGC FLASK APP/
 ```bash
-│
-├── static/               # Static files
-│   ├── styles.css
-│   ├── search.js
-│   └── ongc-logo.png
-│
-├── templates/            # HTML templates
-│   ├── login.html
-│   ├── index.html
-│   ├── entries.html
-│   └── entriesadmin.html
-│
-├── app.py                # Main Flask application
-├── requirements.txt      # Dependency list
-├── backupdata.db         # SQLite DB
-└── .gitignore
+ONGC FLASK APP/
+  │
+  ├── static/               # Static files
+  │   ├── styles.css
+  │   ├── search.js
+  │   └── ongc-logo.png
+  │
+  ├── templates/            # HTML templates
+  │   ├── login.html
+  │   ├── index.html
+  │   ├── entries.html
+  │   └── entriesadmin.html
+  │
+  ├── app.py                # Main Flask application
+  ├── requirements.txt      # Dependency list
+  ├── backupdata.db         # SQLite DB
+  └── .gitignore
 
 
