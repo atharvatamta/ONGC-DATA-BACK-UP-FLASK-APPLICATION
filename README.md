@@ -39,3 +39,40 @@ A web application built using **Flask** to digitize and manage ONGC’s physical
    ```bash
    git clone https://github.com/your-username/ongc-flask-app.git
    cd ongc-flask-app
+
+2. **Create Virtual Environmnet**
+   ```bash
+    python3 -m venv venv
+    source venv/bin/activate
+
+3. **Install Requirements:**
+   ```bash
+   pip install -r requirements.txt
+
+4. **Run the app and open it in browser(use command+click for macos):**
+   ```bash
+    python app.py
+   http://127.0.0.1:5000
+  you can also change the port number I have used the default port number as 5000 feel free to use any port number but change it in the app.py first
+
+## File structure 
+
+ONGC FLASK APP/
+│
+├── static/               # Static files
+│   ├── styles.css
+│   ├── search.js
+│   └── ongc-logo.png
+│
+├── templates/            # HTML templates
+│   ├── login.html
+│   ├── index.html
+│   ├── entries.html
+│   └── entriesadmin.html
+│
+├── app.py                # Main Flask application
+├── requirements.txt      # Dependency list
+├── backupdata.db         # SQLite DB
+└── .gitignore
+
+
