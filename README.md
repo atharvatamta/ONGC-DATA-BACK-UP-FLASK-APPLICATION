@@ -1,6 +1,6 @@
 # ONGC Digital Backup System
 
-A web application built using **Flask** to digitize and manage ONGC’s physical backup register entries. The system provides role-based access for users and admins, enabling secure and efficient data entry and review.
+A web application built using **Flask** to digitize and manage ONGC’s physical backup register entries. The system provides enabling secure and efficient data entry and review.
 
 ---
 
@@ -9,7 +9,6 @@ A web application built using **Flask** to digitize and manage ONGC’s physical
 | Role  | Username | Password  |
 |-------|----------|-----------|
 | Admin | admin    | password  |
-| User  | user     | password  |
 
 ---
 
@@ -37,7 +36,7 @@ A web application built using **Flask** to digitize and manage ONGC’s physical
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/ongc-flask-app.git
+   git clone https://github.com/atharvatamta/ongc-flask-app.git
    cd ongc-flask-app
 
 2. **Create Virtual Environmnet**
